@@ -17,37 +17,9 @@ export default function ItschanaKinGenerator() {
     }
   };
 
-  return (
-  <div className="max-w-md mx-auto mt-10 space-y-6">
-    <h1 className="text-2xl font-bold text-center">Itschana – KIN-Generator</h1>
-
-    <div className="text-center text-sm text-gray-600">
-      <p>🔍 Die öffentliche Vorschau zeigt das KIN für jedes gewünschte Datum.</p>
-    </div>
-
-    <input
-      type="date"
-      value={date}
-      onChange={(e) => setDate(e.target.value)}
-      className="border rounded p-2 w-full"
-    />
-    <button onClick={handleCheck} className="bg-blue-500 text-white px-4 py-2 rounded">
-      KIN anzeigen
-    </button>
-
-    {result && (
-      <div className="mt-4 p-4 border rounded">
-        {result.error ? (
-          <p className="text-red-600">{result.error}</p>
-        ) : (
-          <div>
-            <p><strong>KIN:</strong> {result.kin}</p>
-            <p><strong>Name:</strong> {result.name}</p>
-            <p><strong>Ton:</strong> {result.tone}</p>
-            <p><strong>🔗 Link:</strong> <a href={result.link} className="text-blue-600 underline" target="_blank">öffnen</a></p>
-          </div>
-        )}
-      </div>
-    )}
+ return (
+  <div>
+    <h1>Itschana – KIN-Generator</h1>
+    <p>🌞 Der Generator ist jetzt live – Eingabe folgt im nächsten Schritt.</p>
   </div>
 );
