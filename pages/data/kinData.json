@@ -1,9 +1,23 @@
 [
   {
-    "date": "",
-    "kin": 0,
-    "name": "",
-    "tone": "",
-    "link": ""
+    "date": "2025-06-20",
+    "kin": 215,
+    "name": "Blauer planetarer Adler",
+    "tone": "10",
+    "link": "https://sonnenkalender.com/kin215/"
+  },
+  {
+    "date": "2025-06-21",
+    "kin": 216,
+    "name": "Gelber spektraler Krieger",
+    "tone": "11",
+    "link": "https://sonnenkalender.com/kin216/"
+  },
+  {
+    "date": "2025-06-22",
+    "kin": 217,
+    "name": "Blaue kristalle Hand",
+    "tone": "12",
+    "link": "https://sonnenkalender.com/kin217/"
   }
 ]
