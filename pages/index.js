@@ -1,8 +1,9 @@
 export default function Home() {
   return (
-    <div>
-      <h1>Willkommen im Itschana KIN-Generator</h1>
+    <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
+      <h1>Itschana – KIN-Generator</h1>
       <p>Heute ist KIN 216 – Weißer spektraler Weltenüberbrücker – Ton 11</p>
-    </div>
+      <p>Diese Seite wird gerade neu aufgebaut – mit Klarheit, Liebe und Struktur.</p>
+    </main>
   );
 }
