@@ -1,0 +1,18 @@
+/* Grundstil für Itschana */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fdfdfc;
+  color: #222;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #460055;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.1rem;
