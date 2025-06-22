@@ -3,8 +3,9 @@ import HomeText from '../components/HomeText';
 
 export default function Home() {
   return (
-    <Layout>
-      <HomeText />
-    </Layout>
+    <main>
+      <h1>Itschana – KIN-Generator</h1>
+      <p>Willkommen im Hüterraum der Zeit. Diese Seite zeigt dir, dass dein Projekt lebt ✨</p>
+    </main>
   );
 }
