@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
 import HomeText from '../components/HomeText';
 
-export default function Home() {
+export default function Page() {
   return (
     <main>
       <h1>Itschana – KIN-Generator</h1>
